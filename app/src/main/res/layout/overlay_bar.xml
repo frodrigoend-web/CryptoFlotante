@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#CC0B0E11" android:padding="6dp">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BARRA FLOTANTE" android:textColor="#F0B90B" android:textSize="11sp" android:textStyle="bold" />
+<TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Conectando..." android:textColor="#F0B90B" android:textSize="11sp" android:layout_marginStart="6dp" />
+<TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="BINANCE - EN VIVO" android:textColor="#888888" android:textSize="10sp" android:gravity="end" />
+</LinearLayout>
+<TextView android:id="@+id/tvAlarm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textColor="#00E676" android:textSize="13sp" android:textStyle="bold" android:visibility="gone" android:padding="4dp" />
+<HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none"><LinearLayout android:id="@+id/containerPrices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" /></HorizontalScrollView>
+</LinearLayout>

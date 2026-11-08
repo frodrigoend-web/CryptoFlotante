@@ -1,0 +1,1 @@
+<resources><style name="Theme.CryptoFlotante" parent="Theme.MaterialComponents.DayNight.DarkActionBar"><item name="colorPrimary">#F0B90B</item><item name="colorPrimaryVariant">#C99400</item><item name="colorOnPrimary">#000000</item><item name="android:statusBarColor">#0B0E11</item></style></resources>
